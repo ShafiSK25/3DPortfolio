@@ -19,8 +19,11 @@ const imageUrls = [
   "/images/express.webp",
   "/images/mongo.webp",
   "/images/mysql.webp",
-  "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/java.webp",
+  "/images/html.webp",
+  "/images/css.webp",
+  "/images/java.webp"
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 

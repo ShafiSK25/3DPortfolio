@@ -16,8 +16,8 @@ export default function setSplitText() {
   const paras: NodeListOf<ParaElement> = document.querySelectorAll(".para");
   const titles: NodeListOf<ParaElement> = document.querySelectorAll(".title");
 
-  const TriggerStart = window.innerWidth <= 1024 ? "top 60%" : "20% 60%";
-  const ToggleAction = "play pause resume reverse";
+  const TriggerStart = "top 80%";
+  const ToggleAction = "play none none none";
 
   paras.forEach((para: ParaElement) => {
     para.classList.add("visible");
@@ -31,13 +31,18 @@ export default function setSplitText() {
       linesClass: "split-line",
     });
 
+    const triggerEl =
+      para.closest(".about-section") ||
+      para.parentElement?.parentElement ||
+      para;
+
     para.anim = gsap.fromTo(
       para.split.words,
-      { autoAlpha: 0, y: 80 },
+      { autoAlpha: 0, y: 50 },
       {
         autoAlpha: 1,
         scrollTrigger: {
-          trigger: para.parentElement?.parentElement,
+          trigger: triggerEl,
           toggleActions: ToggleAction,
           start: TriggerStart,
         },
@@ -57,13 +62,20 @@ export default function setSplitText() {
       type: "chars,lines",
       linesClass: "split-line",
     });
+
+    const triggerEl =
+      title.closest(".about-section") ||
+      title.closest(".whatIDO") ||
+      title.parentElement?.parentElement ||
+      title;
+
     title.anim = gsap.fromTo(
       title.split.chars,
-      { autoAlpha: 0, y: 80, rotate: 10 },
+      { autoAlpha: 0, y: 50, rotate: 10 },
       {
         autoAlpha: 1,
         scrollTrigger: {
-          trigger: title.parentElement?.parentElement,
+          trigger: triggerEl,
           toggleActions: ToggleAction,
           start: TriggerStart,
         },
@@ -75,6 +87,4 @@ export default function setSplitText() {
       }
     );
   });
-
-  ScrollTrigger.addEventListener("refresh", () => setSplitText());
 }
