@@ -1,65 +1,92 @@
-# My Portfolio Website - Overview 🚀
+# 🌐 Shaik Adam Shafi — 3D Interactive Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+<p align="center">
+  <a href="https://3-d-portfolio-lilac-nine.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React 18" />
+  <img src="https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=threedotjs" alt="Three.js" />
+  <img src="https://img.shields.io/badge/GSAP-Animations-green?style=for-the-badge&logo=greensock" alt="GSAP" />
+</p>
 
----
+Welcome to the repository for my personal 3D interactive portfolio. Built with **React**, **Three.js**, and **GSAP**, this site showcases my work as a Full Stack Developer with immersive 3D graphics, fluid physics interactions, and scroll-driven micro-animations.
 
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+🔗 **Live Website**: [3-d-portfolio-lilac-nine.vercel.app](https://3-d-portfolio-lilac-nine.vercel.app)
 
 ---
 
-## 🛠️ Instructions
+## ✨ Features
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+- **Interactive 3D Elements**: Powered by `@react-three/fiber` and `@react-three/drei` with real-time physics interactions.
+- **Dynamic Animations**: Smooth, cinematic scroll interactions and micro-animations crafted with **GSAP** and ScrollTrigger.
+- **Responsive Architecture**: Fully responsive layout designed for desktop, tablet, and mobile displays.
+- **Projects & Skills Showcase**: Curated selection of full-stack web applications and software engineering capabilities.
+- **Fast & Modern Build**: Built on top of **Vite** for fast load times and optimized production bundles.
 
 ---
 
-## 🎨 Assets Usage
+## 🛠️ Tech Stack
 
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+- **Core & UI**: React 18, TypeScript, HTML5, CSS3
+- **3D Graphics & Physics**: Three.js, React Three Fiber (R3F), Drei, Rapier, Cannon
+- **Animation**: GSAP (GreenSock Animation Platform), `@gsap/react`
+- **Build & Tooling**: Vite, ESLint
+- **Deployment**: Vercel
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 🚀 Getting Started
+
+Follow these steps to run the portfolio locally on your machine:
+
+### Prerequisites
+
+Ensure you have **Node.js** (v18 or higher recommended) and **npm** installed.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ShafiSK25/3DPortfolio.git
+   cd 3DPortfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173`.
+
+### Building for Production
+
+To create an optimized production build:
+```bash
+npm run build
+```
+
+You can preview the production build locally with:
+```bash
+npm run preview
+```
+
+---
+
+## 📬 Contact & Connect
+
+- **Portfolio**: [3-d-portfolio-lilac-nine.vercel.app](https://3-d-portfolio-lilac-nine.vercel.app)
+- **LinkedIn**: [Shaik Adam Shafi](https://www.linkedin.com/in/shaik-adam-shafi-409157376)
+- **GitHub**: [@ShafiSK25](https://github.com/ShafiSK25)
+- **Email**: [adamshafi95@gmail.com](mailto:adamshafi95@gmail.com)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+This project is open-source and available under the [MIT License](LICENSE).
