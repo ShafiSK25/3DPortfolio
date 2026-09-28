@@ -1,8 +1,8 @@
 # 🌐 Shaik Adam Shafi — 3D Interactive Portfolio
 
 <p align="center">
-  <a href="https://3-d-portfolio-lilac-nine.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  <a href="https://shafiskportfolio.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
   </a>
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React 18" />
   <img src="https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
@@ -12,7 +12,7 @@
 
 Welcome to the repository for my personal 3D interactive portfolio. Built with **React**, **Three.js**, and **GSAP**, this site showcases my work as a Full Stack Developer with immersive 3D graphics, fluid physics interactions, and scroll-driven micro-animations.
 
-🔗 **Live Website**: [3-d-portfolio-lilac-nine.vercel.app](https://3-d-portfolio-lilac-nine.vercel.app)
+🔗 **Live Website**: [shafiskportfolio.netlify.app](https://shafiskportfolio.netlify.app/)
 
 ---
 
@@ -32,7 +32,7 @@ Welcome to the repository for my personal 3D interactive portfolio. Built with *
 - **3D Graphics & Physics**: Three.js, React Three Fiber (R3F), Drei, Rapier, Cannon
 - **Animation**: GSAP (GreenSock Animation Platform), `@gsap/react`
 - **Build & Tooling**: Vite, ESLint
-- **Deployment**: Vercel
+- **Deployment**: Netlify
 
 ---
 
@@ -80,7 +80,7 @@ npm run preview
 
 ## 📬 Contact & Connect
 
-- **Portfolio**: [3-d-portfolio-lilac-nine.vercel.app](https://shafiskportfolio.netlify.app/)
+- **Portfolio**: [shafiskportfolio.netlify.app](https://shafiskportfolio.netlify.app/)
 - **LinkedIn**: [Shaik Adam Shafi](https://www.linkedin.com/in/shaik-adam-shafi-409157376)
 - **GitHub**: [@ShafiSK25](https://github.com/ShafiSK25)
 - **Email**: [adamshafi95@gmail.com](mailto:adamshafi95@gmail.com)
