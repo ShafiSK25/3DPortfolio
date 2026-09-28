@@ -80,7 +80,7 @@ npm run preview
 
 ## 📬 Contact & Connect
 
-- **Portfolio**: [3-d-portfolio-lilac-nine.vercel.app](https://3-d-portfolio-lilac-nine.vercel.app)
+- **Portfolio**: [3-d-portfolio-lilac-nine.vercel.app](https://shafiskportfolio.netlify.app/)
 - **LinkedIn**: [Shaik Adam Shafi](https://www.linkedin.com/in/shaik-adam-shafi-409157376)
 - **GitHub**: [@ShafiSK25](https://github.com/ShafiSK25)
 - **Email**: [adamshafi95@gmail.com](mailto:adamshafi95@gmail.com)
